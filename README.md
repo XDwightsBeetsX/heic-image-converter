@@ -6,7 +6,7 @@ I had a bunch of downloaded `.heic` files but wanted to convert them to `.png` o
 
 ## Next Features
 
-- `.heic` $\rarr$ `.jpg`
+- `.heic` ➡️ `.jpg`
 - `--dest` flag for custom save folder destination
 
 ## Usage
