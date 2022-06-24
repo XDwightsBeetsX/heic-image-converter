@@ -20,7 +20,7 @@ class Converter(object):
 		"--dest": [False, ""],
 		"-del": [False]
 	}
-	flag_to_supported = ["png", "jpg"]
+	flag_to_supported = ["png"]		# ["png", "jpg"]	# no solution for .jpg yet :\
 
 	image_from_ext = ".heic"
 
