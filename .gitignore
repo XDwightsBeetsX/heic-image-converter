@@ -1,3 +1,5 @@
+# .py artifacts
+__pycache__
 
 # tests
 test/heic/*.png
