@@ -2,14 +2,17 @@
 
 i-Device images often come in `.heic` image file format, but these don't translate well to other uses...
 
-I had a bunch of downloaded `.heic` files but wanted to convert them to `.png` or `.jpg` format so I wrote this converter!
+I had a bunch of downloaded `.heic` files but wanted to convert them to `.png` format so I wrote this converter!
 
 ## Notes
 
 - no suitable package was found to convert `.heic` ➡️ `.jpg` on Windows.
 - panoramic or stretched images may not convert properly.
+- skips already-converted files to prevent redundancy
 
 ## Usage
+
+> *currently working on a PYPI release...*
 
 1. ***Install required packages***
    1. `pip install pillow_heif`
@@ -22,11 +25,13 @@ I had a bunch of downloaded `.heic` files but wanted to convert them to `.png` o
 
 ## Examples
 
-- Set the Destination folder
-   <img src="docs/img/sample_run1.png" style="width:500px; height:auto;" alt="set custom destination folder" title="set custom destination folder">
+- Set the destination folder with `--dest`
 
-- Automatically delete converted files
-   <img src="docs/img/sample_run2.png" style="width:500px; height:auto;" alt="set delete flag" title="set delete flag">
+  <img src="docs/img/sample_run1.png" style="width:800px; height:auto;" alt="set custom destination folder" title="set custom destination folder">
+
+- Automatically delete converted files with `-del`
+
+  <img src="docs/img/sample_run2.png" style="width:800px; height:auto;" alt="set delete flag" title="set delete flag">
 
 ## Flags
 
