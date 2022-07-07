@@ -10,6 +10,5 @@ if __name__ == "__main__":
 	
 	ImgConverter = Converter(sys.argv[1:])
 	ImgConverter.convert_files()
-	ImgConverter.report_to_console()
 
 	print(f"{PRE}finished.")
